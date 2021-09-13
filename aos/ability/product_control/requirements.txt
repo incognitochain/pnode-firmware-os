@@ -1,0 +1,6 @@
+tinydb
+pyzmq
+grpcio
+grpcio-tools
+Flask
+gunicorn

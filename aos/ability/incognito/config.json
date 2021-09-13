@@ -1,0 +1,7 @@
+{
+    "version": "1.0.4",
+    "type": 0,
+    "is_service": 0,
+    "boot": true,
+    "application_file": "main.py"
+}

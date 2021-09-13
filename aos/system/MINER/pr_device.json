@@ -1,0 +1,24 @@
+{
+	"abilities": [	
+	{
+		"sensor": "firmware_update"
+	}, {
+		"sensor": "install_ability_device"
+	}, {
+		"sensor": "product_control"
+	}],
+	"name": "miner device",
+	"boot": null,
+	"firebase_url": "",
+	"id": "",
+	"firebase_uid": "",
+	"policy": "simple",
+	"freq": [],
+	"forwarding": {		
+		"phone_control": ""		
+	},
+	"config": {
+		"abilities_path": "ability",
+		"ability_config_file": "config.json"
+	}
+}
