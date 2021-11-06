@@ -116,7 +116,7 @@ def restart_node():
     try:
         qrcode = Util.read_file(CURRENT_PATH+'/data/qrcode.json')
         validator_data = Util.read_file(CURRENT_PATH+'/data/validator.json')  
-        if qrcode["qrcode"]==request.args['qrcode'] and validator_data["validatorKey"]!="" : 
+        if qrcode["qrcode"]==request.args['qrcode'] : # and validator_data["validatorKey"]!="" 
             send_json(data_json)
             return jsonify({"status":1,"message":"OK","data": data_json })
         else:
